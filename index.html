@@ -1,65 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UFT-8">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">
-      Thank you for taking the time to help us improve the platform
-    </p>
-    <form id="survey-form">
-      <fieldset>
-          <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
-          <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required/></label>
-          <label for="number" id="number-label">Age (optional)
-            <input id="number" min="10" max="99" type="number" placeholder="Age" />
-          </label>
-          <label for="dropdown" id="dropdown-label">Which option best describes your current role?
-            <select id="dropdown">
-              <option value="">Select current role</option>
-              <option value="1">Student</option>
-              <option value="2">Full Time Job</option>
-              <option value="3">Full Time Learner</option>
-              <option value="4">Pefer not to say</option>
-              <option value="5">Other</option>
-            </select>
-          </label>
-      </fieldset>
-      <fieldset>
-        <legend>Would you recommend freeCodeCamp to a friend?</legend>
-        <label for="Definitely">
-          <input id="Definitely" type="radio" name="recommend" value ="Definitely" class="inline" checked />
-           Definitely</label>
-           <label for="Maybe">
-           <input id="Maybe" type="radio" name="recommend" value="Maybe" class="inline" checked />
-           Maybe</label>
-           <label for="Not sure">
-           <input id="Not sure" type="radio" name="recommend" value="Not sure" class="inline" checked />
-           Not sure</label>
-      </fieldset>
-      <fieldset>
-        <legend>What would you like to see improved? (Check all that apply)</legend>
-        <label for="Front-end Projects"><input id="Front-end Projects" type="checkbox" value="Front-end Projects" />Front-end Projects</label>
-        <label for="Back-end Projects"><input id="Back-end Projects" type="checkbox" value="Back-end Projects" />Back-end Projects</label>
-        <label for="Data Visualization"><input type="checkbox" id="Data Visualization" value="Data Visualization" />Data Visualization</label>
-        <label for="Challenges"><input id="Challenges" type="checkbox" value="Challenges" />Challenges</label>
-        <label for="Open Source Community"><input id="Open Source Community" type="checkbox"  value="Open Source Community"/>Open Source Community</label>
-        <label for="Gitter help rooms"><input id="Gitter help rooms" type="checkbox" value="Gitter help rooms" />Gitter help rooms</label>
-        <label for="Videos"><input id="Videos" type="checkbox" value="Videos" />Videos</label>
-        <label for="City Meetups"><input id="City Meetups" type="checkbox" value="City Meetups" />City Meetups</label>
-        <label for="Wiki"><input id="Wiki" type="checkbox" value="Wiki" />Wiki</label>
-        <label for="Forum"><input id="Forum" type="checkbox" value="Forum" />Forum</label>
-        <label for="Additional Courses"><input id="Additional Courses" type="checkbox" value="Additional Courses" />Additional Courses</label>
-      </fieldset>
-      <fieldset>
-        <label for="comment">Any comments or suggestions?
-          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
-        </label>
-      </fieldset>
-      <input type="submit" value="submit" id="submit" />
-    </form>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title id="title">Kobe Bryant</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Kobe Bryant</h1>
+    <div id="img-div">
+      <img id="image" src="https://media.nownews.com/nn_media/thumbnail/2025/01/1737955606520-59adc1ccb23c40efb10406fd93685b49-800x533.webp?unShow=false">
+      <figcaption id="img-caption">Kobe Bryant was a legendary NBA player with five titles and the iconic Mamba Mentality.</figcaption>
+      <h2>Career</h2>
+      <ul id="tribute-info">
+        <li>1978 - Born in Philadelphia, Pennsylvania, USA.</li>
+        <li>1991 - Enrolled at Lower Merion High School and quickly gained national attention as a basketball prodigy.</li>
+        <li>1996 - Selected 13th overall in the NBA Draft by the Charlotte Hornets, then immediately traded to the Los Angeles Lakers.</li>
+        <li>1997 - Won the NBA Slam Dunk Contest.</li>
+        <li>1998 - Became the youngest All-Star Game starter in NBA history at age 19.</li>
+        <li>2000 ~ 2002 - Won three consecutive NBA Championships with Shaquille O’Neal and the Lakers (three-peat).</li>
+        <li>2006: Scored 81 points in a single game against the Toronto Raptors.</li>
+        <li>2008 - Led Team USA to Olympic gold in Beijing</li>
+        <li>2008 - Named NBA Most Valuable Player</li>
+        <li>2009, 2010 - Led Lakers to back-to-back championships and won NBA Finals MVP both years.</li>
+        <li>2012 - Won a second Olympic gold medal at the London Games.</li>
+        <li>2015 - Announced he would retire at the end of the season.</li>
+        <li> 2016 - Played his final NBA game, scoring 60 points against the Utah Jazz.</li>
+        <li>2018 - Won an Academy Award (Oscar) for Best Animated Short Film Dear Basketball.</li>
+        <li>2020 - Kobe, his daughter Gianna, and seven others died in a tragic helicopter crash in Calabasas, California.</li>
+        <li>2020 - Officially inducted into the Naismith Memorial Basketball Hall of Fame</li>
+      </ul>
+      <p>Career Highlights:5× NBA Champion (2000–2002, 2009, 2010) 2× NBA Finals MVP 1× NBA MVP (2008) 18× NBA All-Star 2× Olympic Gold Medalist (2008, 2012) 81-point game (2nd highest in NBA history) All-time leading scorer in Lakers history Both jersey numbers #8 and #24 retired by the Lakers</p>
+
+      <p id="wiki">See more about Kobe in his <a id="tribute-link" href="https://zh.wikipedia.org/zh-tw/%E7%A7%91%E6%AF%94%C2%B7%E5%B8%83%E8%8E%B1%E6%81%A9%E7%89%B9" target="_blank"> Wikipedia</a></p>
+    </div>
+  </main>
+</body>
 </html>
